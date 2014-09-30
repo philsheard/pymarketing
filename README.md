@@ -1,0 +1,4 @@
+pymarketing
+===========
+
+Python for Marketing
