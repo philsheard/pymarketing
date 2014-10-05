@@ -1,11 +1,8 @@
-pymarketing
-===========
-
-# Python for Marketing
+# Python for Marketing (pymarketing)
 
 ## Getting started
 
-Before working with this, or any, Python libraries I'd recommend using [PIP]() and [Virtualenv]() to create a separate 'sandbox' environment to install things into. The reason for this is that Python comes pre-installed on OSX and it's good to keep your code separate to the operating system. It should prevent clashes, but also makes the code more transferrable later because all the dependencies are tied up in a single place. You can also run multiple Virtualenv environments on the same computer, at the same time if needed.
+*Note for newcomers:*: We're going to use [PIP]() and [Virtualenv]() to create a separate 'sandbox' environment to install things into. Why? Well Python comes pre-installed on OSX and installing into the main environment can create clashes. You can also run multiple Virtualenv environments on the same computer, at the same time if needed.
 
 *There are mixed opinions about which to install first. For now, it's simplest to install PIP and then Virtualenv*
 
@@ -42,6 +39,8 @@ Before working with this, or any, Python libraries I'd recommend using [PIP]() a
 9. Once that's done, you'll know it's worked because your Terminal lines will be prefixed with the name `(pymarketing)`.
 
     That's the generic stuff done. You can do similar for future environments - none of this is specific to Python for Marketing, except for the names we used. You're now ready to start intalling the `pymarketing` package:
+
+    **TODO**: Add instructions on how to deactivate and reactivate the Virtualenv from the [Virtualenvwrapper page](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
 
 10. In the same Terminal window, enter the following line to install this package from GitHub:
 	
